@@ -1,0 +1,424 @@
+/* Connect font "MinionPro-Regular"; */
+@font-face {
+    font-family: 'MinionPro';
+    src: local("MinionPro"), local("MinionPro-Regular"),
+         url('../fonts/MinionPro-Regular/MinionProRegular.eot') format('embedded-opentype'),
+         url('../fonts/MinionPro-Regular/MinionProRegular.woff2') format('woff2'),
+         url('../fonts/MinionPro-Regular/MinionProRegular.woff') format('woff'),
+         url('../fonts/MinionPro-Regular/MinionProRegular.ttf') format('truetype'),
+         url('../fonts/MinionPro-Regular/MinionProRegular.svg#MinionProRegular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+ 
+/* Connect font "MinionPro-RegularItalic"; */
+@font-face {
+    font-family: 'MinionPro';
+    src: local("MinionPro"), local("MinionPro-RegularItalic"),
+         url('../fonts/MinionPro-It/MinionProIt.eot') format('embedded-opentype'),
+         url('../fonts/MinionPro-It/MinionProIt.woff2') format('woff2'),
+         url('../fonts/MinionPro-It/MinionProIt.woff') format('woff'),
+         url('../fonts/MinionPro-It/MinionProIt.ttf') format('truetype'),
+         url('../fonts/MinionPro-It/MinionProIt.svg#MinionProIt') format('svg');
+    font-weight: 400;
+    font-style: italic;
+}
+ 
+/* Connect font "MinionPro-Medium"; */
+@font-face {
+    font-family: 'MinionPro';
+    src: local("MinionPro"), local("MinionPro-Medium"),
+         url('../fonts/MinionPro-Medium/MinionProMedium.eot') format('embedded-opentype'),
+         url('../fonts/MinionPro-Medium/MinionProMedium.woff2') format('woff2'),
+         url('../fonts/MinionPro-Medium/MinionProMedium.woff') format('woff'),
+         url('../fonts/MinionPro-Medium/MinionProMedium.ttf') format('truetype'),
+         url('../fonts/MinionPro-Medium/MinionProMedium.svg#MinionProMedium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+ 
+/* Connect font "MinionPro-MediumItalic"; */
+@font-face {
+    font-family: 'MinionPro';
+    src: local("MinionPro"), local("MinionPro-MediumItalic"),
+         url('../fonts/MinionPro-MediumIt/MinionProMediumIt.eot') format('embedded-opentype'),
+         url('../fonts/MinionPro-MediumIt/MinionProMediumIt.woff2') format('woff2'),
+         url('../fonts/MinionPro-MediumIt/MinionProMediumIt.woff') format('woff'),
+         url('../fonts/MinionPro-MediumIt/MinionProMediumIt.ttf') format('truetype'),
+         url('../fonts/MinionPro-MediumIt/MinionProMediumIt.svg#MinionProMediumIt') format('svg');
+    font-weight: 500;
+    font-style: italic;
+}
+ 
+/* Connect font "MinionPro-Bold"; */
+@font-face {
+    font-family: 'MinionPro';
+    src: local("MinionPro"), local("MinionPro-Bold"),
+         url('../fonts/MinionPro-Bold/MinionProBold.eot') format('embedded-opentype'),
+         url('../fonts/MinionPro-Bold/MinionProBold.woff2') format('woff2'),
+         url('../fonts/MinionPro-Bold/MinionProBold.woff') format('woff'),
+         url('../fonts/MinionPro-Bold/MinionProBold.ttf') format('truetype'),
+         url('../fonts/MinionPro-Bold/MinionProBold.svg#MinionProBold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+ 
+/* Connect font "MinionPro-BoldItalic"; */
+@font-face {
+    font-family: 'MinionPro';
+    src: local("MinionPro"), local("MinionPro-BoldItalic"),
+         url('../fonts/MinionPro-BoldIt/MinionProBoldIt.eot') format('embedded-opentype'),
+         url('../fonts/MinionPro-BoldIt/MinionProBoldIt.woff2') format('woff2'),
+         url('../fonts/MinionPro-BoldIt/MinionProBoldIt.woff') format('woff'),
+         url('../fonts/MinionPro-BoldIt/MinionProBoldIt.ttf') format('truetype'),
+         url('../fonts/MinionPro-BoldIt/MinionProBoldIt.svg#MinionProBoldIt') format('svg');
+    font-weight: 700;
+    font-style: italic;
+}
+ 
+/* Connect font "MinionPro-Semibold"; */
+@font-face {
+    font-family: 'MinionPro';
+    src: local("MinionPro"), local("MinionPro-Semibold"),
+         url('../fonts/MinionPro-Semibold/MinionProSemibold.eot') format('embedded-opentype'),
+         url('../fonts/MinionPro-Semibold/MinionProSemibold.woff2') format('woff2'),
+         url('../fonts/MinionPro-Semibold/MinionProSemibold.woff') format('woff'),
+         url('../fonts/MinionPro-Semibold/MinionProSemibold.ttf') format('truetype'),
+         url('../fonts/MinionPro-Semibold/MinionProSemibold.svg#MinionProSemibold') format('svg');
+    font-weight: 800;
+    font-style: normal;
+}
+ 
+/* Connect font "MinionPro-SemiboldItalic"; */
+@font-face {
+    font-family: 'MinionPro';
+    src: local("MinionPro"), local("MinionPro-SemiboldItalic"),
+         url('../fonts/MinionPro-SemiboldIt/MinionProSemiboldIt.eot') format('embedded-opentype'),
+         url('../fonts/MinionPro-SemiboldIt/MinionProSemiboldIt.woff2') format('woff2'),
+         url('../fonts/MinionPro-SemiboldIt/MinionProSemiboldIt.woff') format('woff'),
+         url('../fonts/MinionPro-SemiboldIt/MinionProSemiboldIt.ttf') format('truetype'),
+         url('../fonts/MinionPro-SemiboldIt/MinionProSemiboldIt.svg#MinionProSemiboldIt') format('svg');
+    font-weight: 800;
+    font-style: italic;
+}
+@font-face {
+    font-family: Cosmic;
+    src: url('../fonts/2834.woff');
+}
+
+body{ 
+    margin: 0;
+    font-family: "Cosmic", 'MinionPro';
+    min-width:960px;
+    overflow-x: hidden;
+    color:#272F2F;
+}
+a{
+	text-decoration: none;
+}
+h1,h2,h3{
+    text-transform: uppercase;
+}
+input{
+    border: none;
+   }
+button {
+    border:0;
+  }
+  :active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+header{
+    height:100%;
+    min-height:100%;
+    background-image: url('../icons/bg_png/top-right.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size:70% 100%;
+}
+nav{
+    width:50%;
+    margin-left:50%;
+    padding-top:2%;
+}
+
+nav a{
+    color:white;
+    padding-right:5%; 
+}
+nav a:hover{
+    color:rgb(231, 228, 9);
+}
+
+.hedcontholder{
+    display:flex;
+    justify-content: space-between;
+    height:70%;
+    width:70%;
+    margin:0 auto;
+    margin-top:7%;
+    padding-bottom:10%
+}
+
+.request{
+    padding-left:10%;
+    width:25%;
+    display:flex;
+    flex-direction: column;
+    align-content : center;
+}
+
+.request h2{
+    text-align: center;
+    font-size: 20px;
+    padding:20%;
+}
+.request input{
+    border-bottom:2px solid rgb(30, 187, 167);
+    padding:10px 0px 10px 0px;
+    width:100%;
+}
+
+.request p{
+    color: rgb(30, 187, 167);
+    padding:0px;
+    margin-top:20px;
+    font-size: 15px;
+    width:100%;
+    font-family: 'MinionPro';
+}
+
+.submit-btn{
+    margin:10% 0% 0% 13%;
+    width:74%;
+    padding:5%;
+    color:white;
+    background: linear-gradient(90deg, #F36A4E, #FF606A);
+    font-size:100%;
+    border-radius: 5px;
+}
+.submit-btn:hover{
+    background: linear-gradient(90deg, rgb(253, 61, 74), rgb(241, 80, 47));
+    cursor: pointer;
+}
+
+.imgholder{
+    width:59%;
+    display:flex;
+    justify-content: flex-end;
+    overflow: hidden;
+
+}
+.imgholder img{
+    max-width:100%;
+    max-height:90%;
+    
+}
+
+/************requairments*************/
+
+.requairments{
+    background-image: url('../icons/bg_png/requairments.png');
+    height:100%;
+    min-height:100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size:70% 100%;
+    margin-top:10%;
+}
+
+.recholder{
+    width:60%;
+    margin:0 auto;
+    display:flex;
+    flex-direction: row;
+}
+
+.recholderpart{
+    width:33%;
+}
+
+
+.lipsum{
+    display:block;
+    background-color: white;
+    border-radius: 10px;
+    padding:15% 10% 15% 10%;
+    margin:0% 10% 20% 10%;
+    box-shadow:inset -5px 5px 2px -2px rgba(0,0,0,0.1);
+
+}
+
+.lipsum p{
+ 
+    font-family:  'MinionPro';
+}
+
+.recholderpartmove{
+    display:flex;
+    align-items: center;
+}
+
+.rec{
+    line-height: 12px;
+    margin-left:-50%;
+    margin-top: -23%;
+    font-family:  'MinionPro';
+}
+.rec strong,h2{
+    font-family: "Cosmic";
+}
+#requirement{
+    margin-left:20%;
+    margin-bottom: 10%;
+}
+/**********offer*************/
+.offerlisthold{
+    text-align: center;
+    margin-top:-10%
+}
+.offerlisthold h2{
+    
+}
+
+.offerlist{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:70%;
+    margin:0 auto;
+}
+
+.offerlist div{
+    width:33%;
+    text-align: center;
+    margin-top:10%;
+    cursor: pointer;
+}
+.offerlist div:hover .ofdesc{
+    font-weight: bold;
+}
+
+.uncheck{
+    display:block;
+    margin:0 auto;
+    width:40%;
+}
+.check{
+    display:none;
+    margin:0 auto;
+    width:40%;
+}
+/**************footer******************/
+.contacts{
+    background:url('../icons/bg_png/contacts.png');
+    align-content: center;
+}
+
+.footholder{
+    width: 70%;
+    margin:0 auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top:7%;
+}
+
+.contacts h2{
+    padding-top:12%;
+    text-align:  center;
+    color:white;
+}
+
+.requestfoo{
+    width:25%;
+    display:flex;
+    flex-direction: column;
+    align-content : center;
+}
+
+.requestfoo h3{
+    text-align: center;
+    color:white;
+    font-size: 20px;
+    padding:5%;
+}
+.requestfoo input{
+    border-bottom:2px solid rgb(107, 200, 243);
+    padding:10px 0px 10px 0px;
+    margin-bottom:20px;
+    width:100%;
+    background-color: transparent;
+    color:white
+}
+.requestfoo input[type="text"]::-webkit-input-placeholder {
+    font-weight: bold;
+   } 
+.requestfoo input[type="text"]::-moz-placeholder {
+    font-weight: bold;
+   }
+.requestfoo input[type="email"]::-webkit-input-placeholder {
+    color:white;
+   } 
+.requestfoo input[type="email"]::-moz-placeholder {
+    color:white;
+   }
+
+.requestfoo p{
+    color: rgb(107, 200, 243);
+    padding:0px;
+    margin-top:20px;
+    font-size: 15px;
+    width:100%;
+}
+
+.submit-bt{
+    margin:10% 0% 20% 13%;
+    width:74%;
+    padding:5%;
+    color:white;
+    font-size:100%;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #F36A4E, #FF606A);
+}
+
+.submit-bt:hover{
+    background: linear-gradient(90deg, rgb(253, 61, 74), rgb(241, 80, 47));
+    cursor: pointer;
+}
+
+.contactinfo{
+    color:white;
+    width:35%;
+    padding:2% 0% 0% 0%;
+}
+
+.contactinfo h3{
+    padding: 2% 0% 10% 0%;
+}
+.social img{
+ margin:5%;
+}
+.social img:hover{
+    cursor: pointer;
+   }
+
+.signature{
+    color:white;
+    text-align: center;
+    background:url('../icons/bg_png/footer.png');
+}
+
+/***********************/
+main{
+    display:flex;
+    flex-direction:column;
+}
+.svgg{
+    margin-left: auto;
+    margin-right: -300px;
+    margin-top:-300px;
+}

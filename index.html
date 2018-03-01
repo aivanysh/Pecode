@@ -1,0 +1,149 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <title>Pecode</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="stylesheet" type="text/css" href="css/style.css">
+     <script src="js/script.js"></script>
+ </head>
+ <body>
+     <header id = "home">
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#requirement">Our Requirement</a>
+            <a href="#offer">We Offer</a>
+            <a href="#contacts">Contacts</a>
+        </nav>
+        <div class="hedcontholder">
+            <div class="request">
+                <h2>Sent Requests</h2>
+                <form action="#contact" method="get" class="request-form">
+                    <input type="text" name="name" placeholder="INPUT YOUR NAME" required/>
+                    <p><b>INPUT EMAIL</b></p>
+                    <input type="email" name="name" placeholder="example_email@gmail.com" required/>
+                    <button type="submit" class="submit-btn">Sent</button>
+                </form>
+            </div>
+            <div class="imgholder">
+                <img src="icons/2.png" alt="img is loading...">
+            </div>
+        </div>
+     </header>
+     <main>
+        <section  class="requairments">
+            <div class="recholder">
+                <div class="recholderpart">
+                    <div class="lipsum">
+                        <img src="icons/11.png" alt="img is loading...">
+                        <h3>Lorem Ipsum</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+                            dolor. Aenean massa. 
+                        </p>
+                    </div>
+                    <div class="lipsum">
+                        <img src="icons/11.png" alt="img is loading...">
+                        <h3>Lorem Ipsum</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Aenean commodo ligula eget
+                            dolor. Aenean massa. 
+                        </p>
+                    </div>
+                </div>
+                <div class="recholderpart  recholderpartmove">
+                    <div class="lipsum">
+                            <img src="icons/22.png" alt="img is loading...">
+                            <h3>Lorem Ipsum</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Aenean commodo ligula eget
+                                dolor. Aenean massa. 
+                            </p>
+                     </div>
+                </div>
+                <div class="recholderpart">
+                    <div class="rec">
+                        <h2 id="requirement">Our Requirement</h2>
+                        <p><strong>NAME FONTS:</strong></p>
+                        <p>MAIN- <strong>COSMIC</strong></p>
+                        <p>SECONDARY- <b>Minion Pro</b></p>
+                        <p>TEXT COLOR <b>#272F2F</b></p>
+                        <p>COLOR BUTTONS (GRADIENT) FROM <b>#F36A4E</b> TO <b>#FF606A</b></p>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <section class="svgg">
+            <svg height="500" width="600">
+                <circle cx="70" cy="300" r="40" fill="rgb(44,219,195)" />
+                <circle cx="150" cy="450" r="20" fill="rgb(44,219,195)" />
+                <ellipse cx="410" cy="-95" rx="250" ry="180" style="fill:rgb(44,219,195)"  transform="rotate(45)"/>
+                Sorry, your browser does not support inline SVG.  
+            </svg>    
+        </section>
+        <section id = "offer" class="offerlisthold">
+            <h2>We Offer</h2>
+            <article class="offerlist">
+                <div onclick="imchng(this)">
+                    <img class="uncheck" src="icons/3.png" alt="img is loading...">
+                    <img class="check" src="icons/a2.png" alt="img is loading...">
+                    <p class="ofdesc">Career Growth</p>
+                </div>
+                <div  onclick="imchng(this)">
+                    <img class="uncheck" src="icons/99.png" alt="img is loading...">
+                    <img class="check" src="icons/a1.png" alt="img is loading...">
+                    <p class="ofdesc">Flexible working schedule</p>
+                </div>
+                <div  onclick="imchng(this)">
+                    <img class="uncheck" src="icons/44.png" alt="img is loading...">
+                    <img class="check" src="icons/a3.png" alt="img is loading...">
+                    <p class="ofdesc">COmfortable workplace</p>
+                </div>
+                <div  onclick="imchng(this)">
+                    <img class="uncheck" src="icons/55.png" alt="img is loading...">
+                    <img class="check" src="icons/a4.png" alt="img is loading...">
+                    <p class="ofdesc">Competitive salary acording the qualifications</p>
+                </div>
+                <div  onclick="imchng(this)">
+                    <img class="uncheck" src="icons/66.png" alt="img is loading...">
+                    <img class="check" src="icons/a5.png" alt="img is loading...">
+                    <p class="ofdesc">Corporate leisure activities</p>
+                </div>
+                <div  onclick="imchng(this)">
+                    <img class="uncheck" src="icons/77.png" alt="img is loading...">
+                    <img class="check" src="icons/a6.png" alt="img is loading...">
+                    <p class="ofdesc">English lessons</p>
+                </div>
+            </article>
+        </section>
+     </main>
+     <footer>
+        <section id = "contacts" class="contacts"> 
+            <h2>Contacts</h2>
+            <div class="footholder">
+                <div class="requestfoo">
+                    <h3>Sent Requests</h3>
+                    <form action="#contact" method="get" class="request-form">
+                        <input type="text" name="name" placeholder="INPUT YOUR NAME" required/>
+                        <p><b>INPUT EMAIL</b></p>
+                        <input type="email" name="name" placeholder="example_email@gmail.com" required/>
+                        <button type="submit" class="submit-bt">Sent</button>
+                    </form>
+                </div>
+                <div class="contactinfo">
+                    <h3>Get in touch</h3>
+                    <p>UKRAINE. LVIV</p>
+                    <p>TELEPHONE: +380509214581</p>
+                    <p>EMAIL: PCODESOFTWARE@GMAIL.COM</p>
+                    <div class="social">
+                        <img onmouseover="chgimg(this,'icons/linkedin_active.png')" onmouseout="chgimg(this,'icons/linkedin.png')" src="icons/linkedin.png" alt="img is loading...">
+                        <img onmouseover="chgimg(this,'icons/twiter_active.png')" onmouseout="chgimg(this,'icons/twitter.png')"  src="icons/twitter.png" alt="img is loading...">
+                        <img onmouseover="chgimg(this,'icons/fb_active.png')" onmouseout="chgimg(this,'icons/fb.png')"  src="icons/fb.png" alt="img is loading...">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d7498.158667083854!2d24.00543845788758!3d49.79489101743503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e0!4m0!4m3!3m2!1d49.7967158!2d24.005407299999998!5e0!3m2!1suk!2sua!4v1519660421094"
+         width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <div class="signature">Created By Andriy Ivanyshyn</div>
+     </footer>
+ </body>
+ </html>
